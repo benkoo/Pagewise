@@ -1,0 +1,8 @@
+# These settings are for any web project
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Will use git configure as a solution to resolve eol LF/CRLF issues between Unix and Windows
+# Read https://intellij-support.jetbrains.com/hc/en-us/community/posts/205969644-How-to-Ensure-Always-LF-not-CRLF-on-Windows
+# Force the following filetypes to have unix eols, so Windows does not break them
